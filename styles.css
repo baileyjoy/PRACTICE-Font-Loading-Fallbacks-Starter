@@ -1,7 +1,9 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');*/
+
 :root {
   /* TODO: Add the licensed web-font source above these rules, if used. */
-  --font-body: Arial, Helvetica, sans-serif;
-  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: 'Inter', Arial, Helvetica, sans-serif;
+  --font-display: "Playfair Display",Georgia, "Times New Roman", serif;
   --step--1: .875rem;
   --step-0: 1rem;
   --step-1: 1.25rem;
@@ -26,7 +28,7 @@ body {
 }
 header { 
   padding: clamp(1.5rem, 5vw, 4rem); 
-  
+
   background: var(--color-action); 
   color: white; 
 }
@@ -41,7 +43,7 @@ header {
 }
 h1, h2, h3 { 
   font-family: var(--font-display); 
-  line-height: 1.15; 
+  line-height: 1.50; 
 }
 h1 { 
   max-width: 16ch; 
